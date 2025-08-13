@@ -1,163 +1,167 @@
 
-# NotesApp
+# NotesApp 📝
 
-A simple, fast, and modern Android notes app written in Kotlin. Create, edit, and manage your notes with a clean UI and local persistence so your notes are always available offline.
+A simple, modern, and performant notes application for Android, built entirely in Kotlin. This app provides a clean Material Design interface for creating, managing, and accessing your notes offline.
 
-If you're exploring Android development, this project is a solid foundation to learn typical app structure, state management, and persistence.
+This project serves as a practical example of modern Android development architecture and best practices, making it an excellent reference for anyone learning Jetpack, MVVM, and Coroutines.
 
-## Features
+## ✨ Features
 
-- Create, edit, and delete notes
-- Persistent local storage (e.g., Room or similar)
-- Search and sort notes
-- Material Design with light/dark theme support
-- Share notes with other apps
-- Undo/redo support and swipe-to-delete (optional)
-- Pin or archive notes (optional)
+### Current Features
 
-Planned and nice-to-have:
-- Reminders and notifications
-- Categories/labels with color tags
-- Backup/restore (export/import)
-- Biometrics lock (fingerprint/face)
+  - ✅ **Create, Read, Update & Delete (CRUD):** Full support for note management.
+  - ✅ **Persistent Local Storage:** Uses Room database to ensure your notes are always available offline.
+  - ✅ **Clean UI:** A minimal and intuitive interface built with Material Design 3.
+  - ✅ **Light/Dark Theme:** Automatically adapts to your system's theme.
+  - ✅ **Search:** Quickly find notes by title or content.
+  - ✅ **Share Notes:** Easily share your notes with other applications.
 
-## Tech stack
+### Planned Features
 
-- Language: Kotlin
-- Android: Jetpack/Material
-- Architecture: MVVM + Repository
-- Persistence: Room (or equivalent local storage)
-- Concurrency: Coroutines/Flow
-- UI: Views or Jetpack Compose (depending on implementation)
-- Dependency Injection: Hilt/Koin (if applicable)
-- Testing: JUnit, Espresso/Compose UI tests (if applicable)
+  - ⏳ Undo/Redo & Swipe-to-delete gestures.
+  - ⏳ Pin important notes to the top.
+  - ⏳ Categories/Labels with color-coding.
+  - ⏳ Reminders via push notifications.
+  - ⏳ Biometric lock (Fingerprint/Face ID) for privacy.
+  - ⏳ Backup & Restore notes to a file.
 
-Note: The exact libraries may vary based on the current implementation. Adjust this section to reflect what's in build.gradle.
+## 📸 Screenshots
 
-## Screenshots
+The app features a clean and user-friendly interface that supports both light and dark modes.
 
-<div align="center">
+\<table\>
+\<tr\>
+\<td\>\<img src="YOUR\_SCREENSHOT\_URL\_1" alt="Home Screen (Dark)" width="100%"\>\</td\>
+\<td\>\<img src="YOUR\_SCREENSHOT\_URL\_2" alt="Home Screen (Light)" width="100%"\>\</td\>
+\</tr\>
+\<tr\>
+\<td align="center"\>\<i\>Home Screen (Dark Mode)\</i\>\</td\>
+\<td align="center"\>\<i\>Home Screen (Light Mode)\</i\>\</td\>
+\</tr\>
+\<tr\>
+\<td\>\<img src="YOUR\_SCREENSHOT\_URL\_3" alt="Editing a Note" width="100%"\>\</td\>
+\<td\>\<img src="YOUR\_SCREENSHOT\_URL\_4" alt="Search Functionality" width="100%"\>\</td\>
+\</tr\>
+\<tr\>
+\<td align="center"\>\<i\>Editing a Note\</i\>\</td\>
+\<td align="center"\>\<i\>Search Functionality\</i\>\</td\>
+\</tr\>
+\</table\>
 
-![Screenshot_2025-08-12-16-58-13-15_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/6ba4d41a-3f1f-4efd-8ee7-a983315cf148)
-![Screenshot_2025-08-12-16-58-57-38_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/7164ec2b-3540-4bd3-ada1-476ed06f2e03)
+## 🎥 Video Demo
 
-  
-![Uploading Screenshot_2025-08-12-16-59-46-89_e86a9dad7281952419b6f08b30a4339a.jpg…]()
+\<a href="YOUR\_VIDEO\_URL" target="\_blank"\>
+\<img src="YOUR\_THUMBNAIL\_IMAGE\_URL" alt="Watch the video demo" width="400px"/\>
+\<br\>
+\<sub\>\<b\>Watch the Video Demo\</b\>\</sub\>
+\</a\>
 
-![Uploading Screenshot_2025-08-12-16-59-51-10_e86a9dad7281952419b6f08b30a4339a.jpg…]()
+## 🛠 Tech Stack & Architecture
 
+This project follows modern Android architecture and uses a robust set of libraries from the Jetpack suite.
 
+### Tech Stack
 
+  - **Language:** 100% [Kotlin](https://kotlinlang.org/)
+  - **UI:** [Jetpack Compose](https://developer.android.com/jetpack/compose) for declarative UI development.
+  - **Architecture:** [MVVM (Model-View-ViewModel)](https://developer.android.com/topic/architecture) + Repository Pattern
+  - **Asynchronous Programming:** [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) & [Flow](https://developer.android.com/kotlin/flow) for managing background threads and data streams.
+  - **Dependency Injection:** [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) for managing dependencies.
+  - **Persistence:** [Room Database](https://developer.android.com/training/data-storage/room) for local, persistent storage.
+  - **Testing:** [JUnit](https://junit.org/junit5/) & [Espresso](https://developer.android.com/training/testing/espresso) / Compose UI Tests.
 
+### Architecture
 
+The app is built upon the **MVVM (Model-View-ViewModel)** architecture pattern, ensuring a clear separation of concerns.
 
-
-</div>
-
-## Video Demo
-
-
-
-Uploading Record_2025-08-12-17-00-23_e86a9dad7281952419b6f08b30a4339a.mp4…
-
-
-## Getting started
-
-Prerequisites:
-- Android Studio (Giraffe or newer recommended)
-- JDK 17 (or the version configured in Gradle)
-- Android SDK/Platform Tools
-- An emulator or a physical Android device
-
-Clone the repository:
-```bash
-git clone https://github.com/Princelohia9910/NotesApp.git
-cd NotesApp
+```
++----------------+      +----------------+      +-----------------+      +----------------+
+|      UI        |      |   ViewModel    |      |   Repository    |      |   DataSource   |
+| (Composable)   |----->| (Handles UI    |----->|  (Single source |----->|  (Room DB)     |
+| (Observes State|      |  logic & State)|      |   of truth)     |      |                |
++----------------+      +----------------+      +-----------------+      +----------------+
 ```
 
-Open in Android Studio:
-1. File > Open… and select the project folder.
-2. Let Gradle sync finish.
-3. Select a device or emulator.
-4. Press Run.
+  - **UI Layer:** Observes state changes from the ViewModel and sends user events.
+  - **ViewModel Layer:** Holds and processes UI-related data, exposing it as observable state (using Flow). It is lifecycle-aware and survives configuration changes.
+  - **Repository Layer:** Abstracted data operations. It coordinates data from the local data source (Room).
+  - **Data Layer:** The single source of truth for the app, managed by the Room persistence library.
 
-Build from the command line:
+## 🚀 Getting Started
+
+### Prerequisites
+
+  - Android Studio (Iguana or newer recommended)
+  - JDK 17
+  - Android SDK
+
+### Clone & Run
+
+1.  Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/Princelohia9910/NotesApp.git
+    cd NotesApp
+    ```
+
+2.  Open the project in Android Studio:
+
+      - `File` \> `Open...` and select the cloned `NotesApp` folder.
+      - Wait for Gradle to sync all project dependencies.
+
+3.  Run the app:
+
+      - Select an emulator or connect a physical device.
+      - Click the `Run 'app'` button (▶️).
+
+### Command Line
+
+Build the debug APK:
+
 ```bash
 ./gradlew assembleDebug
 ```
 
 Run unit tests:
+
 ```bash
-./gradlew test
+./gradlew testDebugUnitTest
 ```
 
-Run instrumented tests (if present):
+Run instrumented tests (requires a connected device/emulator):
+
 ```bash
 ./gradlew connectedAndroidTest
 ```
 
-## Project structure
+## 🤝 Contributing
 
-This project follows a conventional Android structure with clear separation of concerns. A typical layout looks like:
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+1.  **Fork** the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a **Pull Request**
+
+## 📄 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
 ```
-app/
- ├─ src/
- │   ├─ main/
- │   │  ├─ java/.../notes/
- │   │  │   ├─ data/        # DAOs, entities, repositories
- │   │  │   ├─ domain/      # Use cases (if applicable)
- │   │  │   └─ ui/          # Activities/Fragments/Compose screens, ViewModels
- │   │  └─ res/             # Layouts, drawables, themes, strings
- │   └─ androidTest/        # UI tests
- │   └─ test/               # Unit tests
- └─ build.gradle
+MIT License
+
+Copyright (c) 2025 Prince Lohia
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
 ```
 
-Adjust this section to match your actual package structure.
+## 🙏 Acknowledgments
 
-## Architecture
-
-- MVVM: ViewModel exposes UI state; UI observes state and triggers events.
-- Repository: Encapsulates data operations and abstracts data sources.
-- Local persistence: Room (or similar) as a single source of truth.
-- Coroutines/Flow: For asynchronous work and reactive streams.
-
-Benefits:
-- Testable, maintainable, and scalable
-- Clear boundaries and responsibilities
-- Easy to introduce new data sources (e.g., remote sync)
-
-## Configuration
-
-The app is self-contained and should run without API keys. For release builds:
-- Configure your signing config/keystore in `gradle.properties` or Android Studio
-- Update the applicationId, versionCode, and versionName in module `build.gradle`
-
-
-## Contributing
-
-Contributions are welcome!
-
-- Fork the repo and create a feature branch
-- Keep commits focused and descriptive
-- Add/update tests where appropriate
-- Open a pull request with a clear description, screenshots if UI changes, and any relevant context
-
-For larger changes, consider opening a discussion or issue first.
-
-
-## License
-
-Specify your license here. If you haven’t decided yet, consider adding a LICENSE file (e.g., MIT, Apache-2.0).
-
-Example:
-This project is licensed under the MIT License — see the LICENSE file for details.
-
-## Acknowledgments
-
-- Android Developers documentation
-- Jetpack libraries
-- Material Design guidelines
-
----
+  - [Android Developers Documentation](https://developer.android.com/docs)
+  - [Material Design Guidelines](https://m3.material.io/)
+  - [The amazing open-source community](https://github.com/)
