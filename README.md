@@ -1,42 +1,43 @@
+# 📒 NotesApp
 
-📒 NotesApp
+A simple, fast, and modern **Android notes app** written in **Kotlin**.  
+Create, edit, and manage notes with a clean UI and **offline persistence** — your notes are **always available**, even without internet.
 
-A simple, fast, and modern Android notes app written in Kotlin.
-Create, edit, and manage notes with a clean UI and offline persistence — your notes are always available, even without internet.
+If you're learning Android development, this project is a **solid foundation** for understanding app architecture, state management, and local storage.
 
-If you’re learning Android development, this project is a solid foundation for understanding app architecture, state management, and local storage.
+---
 
-⸻
+## ✨ Features
 
-✨ Features
-	•	✅ Create, edit, and delete notes
-	•	💾 Persistent local storage (Room Database)
-	•	🔍 Search and sort notes
-	•	🎨 Material Design with light/dark theme support
-	•	📤 Share notes with other apps
-	•	↩️ Undo/redo and swipe-to-delete (optional)
-	•	📌 Pin or archive notes (optional)
+- ✅ **Create, edit, and delete notes**  
+- 💾 **Persistent local storage** (Room Database)  
+- 🔍 **Search and sort notes**  
+- 🎨 **Material Design** with light/dark theme support  
+- 📤 **Share notes** with other apps  
+- ↩️ **Undo/redo** and swipe-to-delete *(optional)*  
+- 📌 **Pin or archive notes** *(optional)*  
 
-Planned / Nice-to-have:
-	•	⏰ Reminders and notifications
-	•	🏷 Categories/labels with color tags
-	•	📦 Backup/restore (export/import)
-	•	🔒 Biometrics lock (fingerprint/face unlock)
+**Planned / Nice-to-have:**
+- ⏰ Reminders and notifications  
+- 🏷 Categories/labels with color tags  
+- 📦 Backup/restore (export/import)  
+- 🔒 Biometrics lock (fingerprint/face unlock)  
 
-⸻
+---
 
-🛠 Tech Stack
-	•	Language: Kotlin
-	•	Architecture: MVVM + Repository
-	•	Persistence: Room Database
-	•	UI: Jetpack Compose / Views (depending on implementation)
-	•	Concurrency: Coroutines + Flow
-	•	Dependency Injection: Hilt (or Koin)
-	•	Testing: JUnit, Espresso / Compose UI tests
+## 🛠 Tech Stack
 
-⸻
+- **Language:** Kotlin  
+- **Architecture:** MVVM + Repository  
+- **Persistence:** Room Database  
+- **UI:** Jetpack Compose / Views (depending on implementation)  
+- **Concurrency:** Coroutines + Flow  
+- **Dependency Injection:** Hilt (or Koin)  
+- **Testing:** JUnit, Espresso / Compose UI tests  
 
-🖼 Screenshots
+---
+
+## 🖼 Screenshots
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/d2e26964-603a-4786-b0ed-2383a2f7567a" alt="Notes list screen" width="270" />
@@ -45,34 +46,29 @@ Planned / Nice-to-have:
   <img src="https://github.com/user-attachments/assets/fbb20d8b-c5b6-4b00-a741-fbaa2485ec62" alt="Dark mode note editor" width="270" />
 </div>
 
+---
 
+## 🎥 Video Demo
 
-⸻
+[▶ **Watch the demo**](https://drive.google.com/file/d/1Ad54V3v3BkWu_gROzYIL0VeaNKQ9uQGp/view?usp=sharing)
 
-🎥 Video Demo
+---
 
-▶ Watch the demo
+## 🚀 Getting Started
 
-⸻
+### Prerequisites
+- Android Studio (**Giraffe** or newer recommended)  
+- JDK 17 (or the Gradle-configured version)  
+- Android SDK & Platform Tools  
+- An emulator or a physical Android device  
 
-🚀 Getting Started
-
-Prerequisites
-	•	Android Studio (Giraffe or newer recommended)
-	•	JDK 17 (or the Gradle-configured version)
-	•	Android SDK & Platform Tools
-	•	An emulator or a physical Android device
-
-Clone the Repository
+### Clone the Repository
 
 git clone https://github.com/Princelohia9910/NotesApp.git
 cd NotesApp
+--
 
-
-⸻
-
-📂 Project Structure
-
+## 📂 Project Structure
 app/
  ├─ src/
  │   ├─ main/
@@ -85,10 +81,8 @@ app/
  │   └─ test/               # Unit tests
  └─ build.gradle
 
-
-⸻
-
-🏗 Architecture
+ --
+ 🏗 Architecture
 	•	MVVM – ViewModel manages UI state; UI observes and reacts
 	•	Repository Pattern – Handles data operations and abstracts sources
 	•	Room Database – Local database as the single source of truth
@@ -99,7 +93,7 @@ Benefits:
 	•	✔ Clear boundaries & responsibilities
 	•	✔ Easy to add new data sources (e.g., cloud sync)
 
-⸻
+ ___
 
 🤝 Contributing
 
@@ -124,7 +118,3 @@ We welcome contributions!
 📜 License
 
 This project is licensed under the MIT License.
-
-⸻
-
-
