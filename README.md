@@ -40,10 +40,11 @@ If you're learning Android development, this project is a **solid foundation** f
 ## 🖼 Screenshots
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d2e26964-603a-4786-b0ed-2383a2f7567a" alt="Notes list screen" width="270" />
-  <img src="https://github.com/user-attachments/assets/4529770d-9a8b-4f49-82bb-585500387431" alt="Note editor" width="270" />
-  <img src="https://github.com/user-attachments/assets/5cc1c169-3f31-4751-822c-c93c48507074" alt="Dark mode list" width="270" />
-  <img src="https://github.com/user-attachments/assets/fbb20d8b-c5b6-4b00-a741-fbaa2485ec62" alt="Dark mode note editor" width="270" />
+  <!-- Replace these image URLs with actual GitHub image links -->
+  <img src="screenshot1.png" alt="Notes list screen" width="270" />
+  <img src="screenshot2.png" alt="Note editor" width="270" />
+  <img src="screenshot3.png" alt="Dark mode list" width="270" />
+  <img src="screenshot4.png" alt="Dark mode note editor" width="270" />
 </div>
 
 ---
@@ -63,12 +64,15 @@ If you're learning Android development, this project is a **solid foundation** f
 - An emulator or a physical Android device  
 
 ### Clone the Repository
-
+```bash
 git clone https://github.com/Princelohia9910/NotesApp.git
 cd NotesApp
---
+```
+
+---
 
 ## 📂 Project Structure
+```plaintext
 app/
  ├─ src/
  │   ├─ main/
@@ -80,42 +84,45 @@ app/
  │   └─ androidTest/        # UI tests
  │   └─ test/               # Unit tests
  └─ build.gradle
+```
 
-⸻
- 🏗 Architecture
-	•	MVVM – ViewModel manages UI state; UI observes and reacts
-	•	Repository Pattern – Handles data operations and abstracts sources
-	•	Room Database – Local database as the single source of truth
-	•	Coroutines / Flow – For asynchronous work and reactive streams
- ⸻
+---
 
-Benefits:
-	•	✔ Testable, maintainable, and scalable
-	•	✔ Clear boundaries & responsibilities
-	•	✔ Easy to add new data sources (e.g., cloud sync)
+## 🏗 Architecture
 
-⸻
+- **MVVM** – ViewModel manages UI state; UI observes and reacts  
+- **Repository Pattern** – Handles data operations and abstracts sources  
+- **Room Database** – Local database as the single source of truth  
+- **Coroutines / Flow** – For asynchronous work and reactive streams  
 
-🤝 Contributing
+**Benefits:**
+- ✔ Testable, maintainable, and scalable  
+- ✔ Clear boundaries & responsibilities  
+- ✔ Easy to add new data sources (e.g., cloud sync)  
 
-We welcome contributions!
-	1.	Fork the repository and create a feature branch.
-	2.	Keep commits focused and descriptive.
-	3.	Add/update tests for new features.
-	4.	Open a PR with a clear description and screenshots (if UI changes).
+---
 
-⸻
+## 🤝 Contributing
 
-📅 Roadmap
-	•	🔍 Improve search (fuzzy matching, highlight results)
-	•	📑 Bulk actions (multi-select)
-	•	📊 Sorting & grouping enhancements
-	•	📤 Export/import (JSON/CSV)
-	•	⏰ Reminders with notifications
-	•	🔒 Biometrics lock
+We welcome contributions!  
+1. Fork the repository and create a feature branch.  
+2. Keep commits focused and descriptive.  
+3. Add/update tests for new features.  
+4. Open a PR with a clear description and screenshots *(if UI changes)*.  
 
-⸻
+---
 
-📜 License
+## 📅 Roadmap
 
-This project is licensed under the MIT License.
+- 🔍 Improve search *(fuzzy matching, highlight results)*  
+- 📑 Bulk actions *(multi-select)*  
+- 📊 Sorting & grouping enhancements  
+- 📤 Export/import *(JSON/CSV)*  
+- ⏰ Reminders with notifications  
+- 🔒 Biometrics lock  
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).  
