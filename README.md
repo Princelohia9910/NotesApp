@@ -174,9 +174,4 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 - Jetpack libraries
 - Material Design guidelines
 
----
 
-Made with Kotlin and care.
-````
-
-Want me to commit this README.md and create the docs/screenshots/ folder for you in a new branch and open a PR?
