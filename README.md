@@ -22,6 +22,16 @@ If you're learning Android development, this project is a **solid foundation** t
 - 📦 Backup/restore (export/import)  
 - 🔒 Biometrics lock (fingerprint/face unlock)  
 
+## 🛠 Tech Stack
+
+- **Language:** Kotlin  
+- **Architecture:** MVVM + Repository  
+- **Persistence:** Room Database  
+- **UI:** Jetpack Compose / Views (depending on your implementation)  
+- **Concurrency:** Coroutines + Flow  
+- **Dependency Injection:** Hilt (or Koin)  
+- **Testing:** JUnit, Espresso / Compose UI tests  
+
 ---
 
 ## 🖼 Screenshots
@@ -38,23 +48,8 @@ If you're learning Android development, this project is a **solid foundation** t
 
 ## 🎥 Video Demo
 
-[▶ Watch the demo]()
+[▶ Watch the demo](https://drive.google.com/file/d/1Ad54V3v3BkWu_gROzYIL0VeaNKQ9uQGp/view?usp=sharing)
 
-*(Replace `LINK_TO_YOUR_VIDEO_FILE_OR_RELEASE` with the actual `.mp4` link from GitHub Releases or another host.)*
-
----
-
-## 🛠 Tech Stack
-
-- **Language:** Kotlin  
-- **Architecture:** MVVM + Repository  
-- **Persistence:** Room Database  
-- **UI:** Jetpack Compose / Views (depending on your implementation)  
-- **Concurrency:** Coroutines + Flow  
-- **Dependency Injection:** Hilt (or Koin)  
-- **Testing:** JUnit, Espresso / Compose UI tests  
-
----
 
 ## 🚀 Getting Started
 
@@ -65,6 +60,52 @@ If you're learning Android development, this project is a **solid foundation** t
 - An emulator or a physical Android device  
 
 ### Clone the Repository
-```bash
-git clone https://github.com/Princelohia9910/NotesApp.git
-cd NotesApp
+git clone https://github.com/Princelohia9910/NotesApp.gitcd NotesApp
+
+
+## project Structure
+
+app/
+ ├─ src/
+ │   ├─ main/
+ │   │  ├─ java/.../notes/
+ │   │  │   ├─ data/        # DAOs, entities, repositories
+ │   │  │   ├─ domain/      # Use cases (if applicable)
+ │   │  │   └─ ui/          # Activities/Fragments/Compose screens, ViewModels
+ │   │  └─ res/             # Layouts, drawables, themes, strings
+ │   └─ androidTest/        # UI tests
+ │   └─ test/               # Unit tests
+ └─ build.gradle
+ 
+##🏗 Architecture
+	•	MVVM: ViewModel manages UI state; UI observes and reacts.
+	•	Repository Pattern: Handles data operations and abstracts sources.
+	•	Room Database: Local database as the single source of truth.
+	•	Coroutines/Flow: Async work and reactive streams.
+
+Benefits:
+✔ Testable, maintainable, and scalable
+✔ Clear boundaries & responsibilities
+✔ Easy to add new data sources (e.g., cloud sync)
+
+⸻
+
+##🤝 Contributing
+
+Contributions are welcome!
+	1.	Fork the repo and create a feature branch.
+	2.	Keep commits focused and descriptive.
+	3.	Add/update tests for new features.
+	4.	Open a PR with a clear description and screenshots if UI changes.
+
+⸻
+
+##📅 Roadmap
+	•	Improve search (fuzzy, highlight matches)
+	•	Bulk actions (multi-select)
+	•	Sorting & grouping enhancements
+	•	Export/import (JSON/CSV)
+	•	Reminders with notifications
+	•	Biometrics lock
+
+⸻
