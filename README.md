@@ -39,8 +39,7 @@ If you're learning Android development, this project is a **solid foundation** t
 <div align="center">
   
   <img src="https://github.com/user-attachments/assets/d2e26964-603a-4786-b0ed-2383a2f7567a" alt="Notes list screen" width="270" />
-   <img src="![Screenshot_2025-08-12-16-58-57-38_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/d3493be7-b14c-4fb5-9327-084dcd22bcc3)
-" alt="Dark mode note editor" width="270" />
+   <img src="![Screenshot_2025-08-12-16-58-57-38_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/4529770d-9a8b-4f49-82bb-585500387431)" alt="Dark mode note editor" width="270" />
   <img src="https://github.com/user-attachments/assets/5cc1c169-3f31-4751-822c-c93c48507074" alt="Dark mode list" width="270" />
  
   <img src="https://github.com/user-attachments/assets/fbb20d8b-c5b6-4b00-a741-fbaa2485ec62" alt="Dark mode note editor" width="270" />
@@ -50,6 +49,14 @@ If you're learning Android development, this project is a **solid foundation** t
 ## 🎥 Video Demo
 
 [▶ Watch the demo](https://drive.google.com/file/d/1Ad54V3v3BkWu_gROzYIL0VeaNKQ9uQGp/view?usp=sharing)
+
+
+Uploading Record_2025-08-12-17-00-23_e86a9dad7281952419b6f08b30a4339a.mp4…
+
+
+Uploading Record_2025-08-12-17-00-23_e86a9dad7281952419b6f08b30a4339a.mp4…
+
+
 
 
 ## 🚀 Getting Started
@@ -78,11 +85,11 @@ app/
  │   └─ test/               # Unit tests
  └─ build.gradle
  
-##🏗 Architecture
-	•	MVVM: ViewModel manages UI state; UI observes and reacts.
-	•	Repository Pattern: Handles data operations and abstracts sources.
-	•	Room Database: Local database as the single source of truth.
-	•	Coroutines/Flow: Async work and reactive streams.
+## 🏗 Architecture
+•	MVVM: ViewModel manages UI state; UI observes and reacts.
+•	Repository Pattern: Handles data operations and abstracts sources.
+•	Room Database: Local database as the single source of truth.
+•	Coroutines/Flow: Async work and reactive streams.
 
 Benefits:
 ✔ Testable, maintainable, and scalable
@@ -91,7 +98,7 @@ Benefits:
 
 ⸻
 
-##🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 	1.	Fork the repo and create a feature branch.
@@ -99,14 +106,11 @@ Contributions are welcome!
 	3.	Add/update tests for new features.
 	4.	Open a PR with a clear description and screenshots if UI changes.
 
-⸻
+## 📅 Roadmap
 
-##📅 Roadmap
-	•	Improve search (fuzzy, highlight matches)
-	•	Bulk actions (multi-select)
-	•	Sorting & grouping enhancements
-	•	Export/import (JSON/CSV)
-	•	Reminders with notifications
-	•	Biometrics lock
-
-⸻
+•	Improve search (fuzzy, highlight matches)
+•	Bulk actions (multi-select)
+•	Sorting & grouping enhancements
+•	Export/import (JSON/CSV)
+•	Reminders with notifications
+•	Biometrics lock
