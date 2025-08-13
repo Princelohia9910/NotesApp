@@ -54,8 +54,6 @@ If you're learning Android development, this project is a **solid foundation** t
 Uploading Record_2025-08-12-17-00-23_e86a9dad7281952419b6f08b30a4339a.mp4…
 
 
-Uploading Record_2025-08-12-17-00-23_e86a9dad7281952419b6f08b30a4339a.mp4…
-
 
 
 
