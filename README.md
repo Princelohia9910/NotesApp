@@ -39,14 +39,13 @@ If you're learning Android development, this project is a **solid foundation** t
 <div align="center">
   
   <img src="https://github.com/user-attachments/assets/d2e26964-603a-4786-b0ed-2383a2f7567a" alt="Notes list screen" width="270" />
-   <img src="![Uploading Screenshot_2025-08-12-16-58-57-38_e86a9dad7281952419b6f08b30a4339a.jpg…]()
+   <img src="![Screenshot_2025-08-12-16-58-57-38_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/d3493be7-b14c-4fb5-9327-084dcd22bcc3)
 " alt="Dark mode note editor" width="270" />
   <img src="https://github.com/user-attachments/assets/5cc1c169-3f31-4751-822c-c93c48507074" alt="Dark mode list" width="270" />
  
   <img src="https://github.com/user-attachments/assets/fbb20d8b-c5b6-4b00-a741-fbaa2485ec62" alt="Dark mode note editor" width="270" />
 </div>
 
----
 
 ## 🎥 Video Demo
 
