@@ -81,19 +81,20 @@ app/
  │   └─ test/               # Unit tests
  └─ build.gradle
 
- --
+⸻
  🏗 Architecture
 	•	MVVM – ViewModel manages UI state; UI observes and reacts
 	•	Repository Pattern – Handles data operations and abstracts sources
 	•	Room Database – Local database as the single source of truth
 	•	Coroutines / Flow – For asynchronous work and reactive streams
+ ⸻
 
 Benefits:
 	•	✔ Testable, maintainable, and scalable
 	•	✔ Clear boundaries & responsibilities
 	•	✔ Easy to add new data sources (e.g., cloud sync)
 
- ___
+⸻
 
 🤝 Contributing
 
