@@ -41,10 +41,14 @@ If you're learning Android development, this project is a **solid foundation** f
 
 <div align="center">
   <!-- Replace these image URLs with actual GitHub image links -->
-  <img src="screenshot1.png" alt="Notes list screen" width="270" />
-  <img src="screenshot2.png" alt="Note editor" width="270" />
-  <img src="screenshot3.png" alt="Dark mode list" width="270" />
-  <img src="screenshot4.png" alt="Dark mode note editor" width="270" />
+  <img src="![Screenshot_2025-08-12-16-58-13-15_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/7d4304ad-a288-4be5-acee-a101847b9078)
+"  width="270" />
+  <img src="![Screenshot_2025-08-12-16-58-57-38_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/e867aa78-cbe0-467e-8378-f73ea9045680)
+"  width="270" />
+  <img src="![Screenshot_2025-08-12-16-59-46-89_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/eb12257e-e8d0-4be3-a466-d46b5d950ecd)
+"  width="270" />
+  <img src="![Screenshot_2025-08-12-16-59-51-10_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/74d46d3d-b2e7-4a63-b2a9-30a70f6812af)
+"  width="270" />
 </div>
 
 ---
