@@ -38,12 +38,36 @@ If you're learning Android development, this project is a **solid foundation** f
 ---
 
 ## 🖼 Screenshots
-![Screenshot_2025-08-12-16-58-13-15_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/cbb7cad6-46b0-44d3-ba32-60e76eab7768)
-![Screenshot_2025-08-12-16-58-57-38_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/81fe8efc-c49c-4615-81e4-0a84ce7d50bd)
-![Screenshot_2025-08-12-16-59-46-89_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/345c18c6-026b-4d78-a173-756fe8269ec5)
-![Screenshot_2025-08-12-16-59-51-10_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/c9f2f484-2ef9-4228-a6c0-450c3a137936)
 
+<!-- 2×2 grid with fixed-width thumbnails; click any image to view full size -->
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/user-attachments/assets/cbb7cad6-46b0-44d3-ba32-60e76eab7768">
+        <img src="https://github.com/user-attachments/assets/cbb7cad6-46b0-44d3-ba32-60e76eab7768" alt="NotesApp screenshot 1" width="260">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/user-attachments/assets/81fe8efc-c49c-4615-81e4-0a84ce7d50bd">
+        <img src="https://github.com/user-attachments/assets/81fe8efc-c49c-4615-81e4-0a84ce7d50bd" alt="NotesApp screenshot 2" width="260">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/user-attachments/assets/345c18c6-026b-4d78-a173-756fe8269ec5">
+        <img src="https://github.com/user-attachments/assets/345c18c6-026b-4d78-a173-756fe8269ec5" alt="NotesApp screenshot 3" width="260">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/user-attachments/assets/c9f2f484-2ef9-4228-a6c0-450c3a137936">
+        <img src="https://github.com/user-attachments/assets/c9f2f484-2ef9-4228-a6c0-450c3a137936" alt="NotesApp screenshot 4" width="260">
+      </a>
+    </td>
+  </tr>
+</table>
 
+<!-- Tip: change the width value (e.g., 220–320) to adjust the thumbnail size -->
 
 
 
