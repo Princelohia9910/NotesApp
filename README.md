@@ -38,18 +38,14 @@ If you're learning Android development, this project is a **solid foundation** f
 ---
 
 ## 🖼 Screenshots
+![Screenshot_2025-08-12-16-58-13-15_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/cbb7cad6-46b0-44d3-ba32-60e76eab7768)
+![Screenshot_2025-08-12-16-58-57-38_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/81fe8efc-c49c-4615-81e4-0a84ce7d50bd)
+![Screenshot_2025-08-12-16-59-46-89_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/345c18c6-026b-4d78-a173-756fe8269ec5)
+![Screenshot_2025-08-12-16-59-51-10_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/c9f2f484-2ef9-4228-a6c0-450c3a137936)
 
-<div align="center">
-  <!-- Replace these image URLs with actual GitHub image links -->
-  <img src="![Screenshot_2025-08-12-16-58-13-15_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/7d4304ad-a288-4be5-acee-a101847b9078)
-"   />
-  <img src="![Screenshot_2025-08-12-16-58-57-38_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/e867aa78-cbe0-467e-8378-f73ea9045680)
-"  />
-  <img src="![Screenshot_2025-08-12-16-59-46-89_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/eb12257e-e8d0-4be3-a466-d46b5d950ecd)
-"  />
-  <img src="![Screenshot_2025-08-12-16-59-51-10_e86a9dad7281952419b6f08b30a4339a](https://github.com/user-attachments/assets/74d46d3d-b2e7-4a63-b2a9-30a70f6812af)
-"   />
-</div>
+
+
+
 
 ---
 
